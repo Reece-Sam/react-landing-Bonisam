@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px 0;
+    margin-left: 10em;
+    /* background: rgba(0, 0, 0, 0.9); */
+    z-index: 999;
+    color: white;
+}
+
+.header .list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header .btn {
+    margin-left: 20em;
+    display: flex;
+    gap: 30px;
+    border-radius: 60px;
+    width: 200px;
+    height: 2em;
+    /* background-color: white; */
+}
+
+.header .btn .login {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.header .btn .start {
+    background-color: white;
+    border-radius: 60px;
+    font-size: 1em;
+    color: black;
+    border: none;
+    /* width: 100px; */
+    /* padding-left: 1em;
+    padding-right: 1em; */
+    /* text-align: center; */
+}
