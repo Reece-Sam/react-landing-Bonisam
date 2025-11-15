@@ -10,14 +10,14 @@ const Header = () => {
       />
 
       <ul className="list">
-        <li>Solutions</li>
+        <li>Why Shopify</li>
+        <li>Products</li>
         <li>Pricing</li>
-        <li>Resources</li>
-        <li>Enterprise</li>
-        <li>What's new</li>
+        <li>Enterprise</li>{" "}
+        
 
         <div className="btn">
-          <button className='login'>Log in</button>
+          <button className="login">Log in</button>
           <button className="start">Start free trial</button>
         </div>
       </ul>

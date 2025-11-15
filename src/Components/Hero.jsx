@@ -3,9 +3,8 @@ import "../Styles/Hero.css";
 
 const Hero = () => {
   return (
-    <div className="video">
-      <video autoPlay muted loop src="src/assets/images/Shopif.webm">
-      </video>
+    <div className="">
+      
 
       <div className="content">
         <h1>Be the next unicorn startup</h1>
